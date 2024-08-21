@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sysgears-test-front/static/css/main.7acaea2f.css",
+    "main.js": "/sysgears-test-front/static/js/main.07d3183d.js",
+    "index.html": "/sysgears-test-front/index.html",
+    "main.7acaea2f.css.map": "/sysgears-test-front/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/sysgears-test-front/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
