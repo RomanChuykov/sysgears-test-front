@@ -1,10 +1,21 @@
 
-import { a} from './Chats.styled';
-function Chats(){
-
+import { useState } from 'react';
+import { ChatsWrapper,Name,ChatList,ChatLi} from './Chats.styled';
+function Chats({Users}){
+const [ChatUsers,setChatUsers]=useState({cUsers:Users.data})
+console.log('ChatUsers', ChatUsers);
     return(
         <>
-			<div> Chats</div>
+			<ChatsWrapper> Chats
+            <ChatList>  
+        {/* Ітерація по об'єкту ChatUsers.cUsers */}
+        {Object.entries(ChatUsers.cUsers).map(([key, value], index) => (
+          <ChatLi key={index}>
+           <Name>{key}</Name> {value}
+          </ChatLi>
+        ))}
+      </ChatList>
+      </ChatsWrapper>
         </>
     )
 };
