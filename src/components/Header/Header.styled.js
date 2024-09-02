@@ -44,3 +44,7 @@ export const AvatarWrapper = styled.div`
    border-radius:10px;
    align-items:center;
  `;
+ 
+ export const UserName = styled.div`
+   
+ `;
